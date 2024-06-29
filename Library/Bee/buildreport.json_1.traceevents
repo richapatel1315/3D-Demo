@@ -1,0 +1,517 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1673445201165579, "dur": 6648598, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445201165982, "dur": 37215, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445201203200, "dur": 95682, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445201298884, "dur": 966861, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445202265748, "dur": 5542973, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445207808725, "dur": 5450, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445207815420, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1673445201902273, "dur": 330868, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445201904038, "dur": 82445, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445202188198, "dur": 12853, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445202201057, "dur": 32059, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445202202940, "dur": 19574, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445202241929, "dur": 3308, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673445202240340, "dur": 4956, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445207815692, "dur": 487, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673445202363101, "dur":40840, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445202403977, "dur":283, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673445202404300, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673445202404388, "dur":1794, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673445202406477, "dur":7009, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445202413486, "dur":8, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207733903, "dur":229, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734133, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734153, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734159, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734177, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734182, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734192, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734198, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734211, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734229, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207734292, "dur":8080, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673445202410484, "dur":3060, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202413561, "dur":23284, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202436868, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673445202436881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202445003, "dur":4852, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673445202449865, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673445202450026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202450744, "dur":29335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673445202480082, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1673445202480260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202480338, "dur":42334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1673445202522795, "dur":13610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1673445202536412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202536424, "dur":22766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1673445202559457, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673445202560048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202562811, "dur":17606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673445202580500, "dur":24294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673445202604800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202604814, "dur":9880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673445202614755, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1673445202614906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445202614913, "dur":76511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1673445202691488, "dur":1325750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445204017244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445204017253, "dur":1489057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445205506400, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445205507373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445205507387, "dur":97839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445205605313, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445205605606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445205605621, "dur":597357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206203077, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206203488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206203499, "dur":239514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206443177, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206443471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206443481, "dur":99622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206543201, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206543514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206543524, "dur":61770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206605384, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206605673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206605683, "dur":77954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206683719, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206684066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206684075, "dur":72890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206757089, "dur":747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206757845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206757860, "dur":53580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206811528, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206811779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206811790, "dur":47679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206859574, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206859857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206859867, "dur":28671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206888684, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206889011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206889022, "dur":30908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206920013, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206920453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206920463, "dur":57608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206978163, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445206978905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445206978914, "dur":65108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207044101, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207044501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207044511, "dur":221907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207266656, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207267518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207267544, "dur":58916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207326540, "dur":3756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207330302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207330313, "dur":148342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207478753, "dur":1809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207480569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207480580, "dur":77082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673445207557757, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673445207557852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207557939, "dur":80164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673445207638272, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207638397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207638406, "dur":11273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207649756, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207649842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207649852, "dur":11043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207660987, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1673445207661350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207661361, "dur":7875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1673445207669334, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207669428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207669436, "dur":6365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673445207675884, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1673445207675975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207675983, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1673445207682567, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673445207682669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207682677, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673445207689714, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1673445207689850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673445207689860, "dur":8570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1673445207698512, "dur":35391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202412333, "dur":1265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202413600, "dur":23252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202436868, "dur":35242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1673445202472116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202473273, "dur":29306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1673445202502867, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673445202503504, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202503545, "dur":64542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673445202568257, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673445202568574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202568737, "dur":38730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673445202607568, "dur":1003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673445202608579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445202608593, "dur":95771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673445202704452, "dur":855256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1673445203559714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203559723, "dur":93290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1673445203653102, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203653379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203653390, "dur":47864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203701316, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203701528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203701535, "dur":56081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203757709, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203758007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203758017, "dur":63892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203821996, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203822450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203822461, "dur":89371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203911912, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203912192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203912201, "dur":68185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203980469, "dur":2535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445203983011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445203983023, "dur":341328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204324462, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204325369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445204325384, "dur":82806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204408279, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204408582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445204408592, "dur":279667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204688346, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204688741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445204688754, "dur":187687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204876523, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204876795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445204876804, "dur":68328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204945220, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445204945493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445204945504, "dur":309622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205255222, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205255502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445205255512, "dur":207779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205463397, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205463891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445205463904, "dur":89002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205552998, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205553426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445205553436, "dur":428644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205982350, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445205983025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445205983056, "dur":376373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206359686, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206360520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206360558, "dur":110573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206471217, "dur":2285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206473511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206473526, "dur":164643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206638258, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206638811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206638830, "dur":86969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206725887, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206726162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206726171, "dur":37737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206763989, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206764331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206764341, "dur":36810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206801239, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206802026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206802071, "dur":47084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206849237, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206849484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206849494, "dur":26405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206875991, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206876311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206876322, "dur":30325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206906729, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206906979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206906989, "dur":26264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206933348, "dur":6204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445206939558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445206939570, "dur":327988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207267837, "dur":5410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207273263, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207273288, "dur":80577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207353951, "dur":2308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207356266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207356276, "dur":96338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207452695, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207453491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207453505, "dur":49355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207502943, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207503698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207503708, "dur":43359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207547146, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207547444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207547454, "dur":32982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673445207580493, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207580552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207580558, "dur":68956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207649592, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207649673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207649718, "dur":16563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207666360, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207666437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207666445, "dur":20059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673445207686606, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1673445207686697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673445207686706, "dur":18041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1673445207704831, "dur":29087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202412565, "dur":1063, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202413629, "dur":23246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202436889, "dur":1619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673445202438518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202449712, "dur":51857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673445202501853, "dur":27037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1673445202528896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202528908, "dur":29852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1673445202558969, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673445202559474, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202559496, "dur":58585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673445202618158, "dur":89607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445202707771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202708200, "dur":58978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445202767283, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration.exe" }}
+,{ "pid":12345, "tid":3, "ts":1673445202768303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202768309, "dur":34333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration.exe" }}
+,{ "pid":12345, "tid":3, "ts":1673445202802700, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673445202802854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445202803233, "dur":399270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673445203202584, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203202910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203226564, "dur":37525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203264148, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203264337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203264401, "dur":33864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203298326, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203298521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203298528, "dur":38276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203336896, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203337174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203337182, "dur":38098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203375385, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203375607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203375614, "dur":38121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203413800, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203414027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203414034, "dur":42341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203456434, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203456627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203456634, "dur":35132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203491830, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203492041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203492048, "dur":37311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203529423, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203529626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203529633, "dur":37790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203567517, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203567839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203567849, "dur":45216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203613125, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203613331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203613338, "dur":71043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203684467, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203684728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203684739, "dur":53634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203738453, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203738744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203738754, "dur":65400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203804247, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203804668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203804678, "dur":65111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203869881, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203870809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203870820, "dur":67807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203938712, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445203939036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445203939046, "dur":66438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204005569, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204006154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204006164, "dur":56729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204062971, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204063242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204063251, "dur":341357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204404693, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204405213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204405223, "dur":283078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204688395, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204688691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204688705, "dur":73629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204762429, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204762699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204762709, "dur":186710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204949511, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445204949817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445204949828, "dur":302914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205252820, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205253073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445205253084, "dur":58326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205311505, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205311968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445205311978, "dur":219683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205531746, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205532018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445205532029, "dur":448166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205980757, "dur":2253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445205983030, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445205983090, "dur":376301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206359663, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206360542, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206360662, "dur":83765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206444513, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206444772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206444782, "dur":103136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206548011, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206548334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206548345, "dur":67550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206615974, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206616242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206616251, "dur":108410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206724750, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206725026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206725036, "dur":67139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206792270, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206792708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206792722, "dur":56773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206849578, "dur":862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206850447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206850458, "dur":34228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206884768, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206885000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206885011, "dur":29581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206914681, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206914932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206914944, "dur":33512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206948543, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445206949069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445206949079, "dur":51565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207000739, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207001182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207001192, "dur":51486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207052773, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207053059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207053069, "dur":247079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207300282, "dur":6036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207306326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207306338, "dur":186750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207493176, "dur":891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207494073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207494083, "dur":39691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207533860, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207534319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207534329, "dur":20495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673445207554912, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1673445207555150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207556146, "dur":98223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1673445207654452, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1673445207654712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207654721, "dur":16982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1673445207671798, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673445207671883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207671891, "dur":17719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673445207689713, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673445207689819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207689828, "dur":8523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673445207698445, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1673445207698780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673445207698802, "dur":7476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1673445207706372, "dur":27533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202412930, "dur":728, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202413659, "dur":24947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202438607, "dur":61717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202500434, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202500484, "dur":14495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202515107, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673445202515425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202517045, "dur":12427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673445202529569, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1673445202529768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202529856, "dur":9981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1673445202539938, "dur":7486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202547430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202547442, "dur":20633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202568255, "dur":33369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202601631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202601646, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202609503, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202609762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445202609772, "dur":54346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1673445202664308, "dur":1075452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445203739766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445203739884, "dur":597892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204337866, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204338171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445204338189, "dur":103923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204442206, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204442477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445204442487, "dur":311613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204754256, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204754580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445204754591, "dur":197884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204952563, "dur":8522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445204961091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445204961103, "dur":328550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205289801, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205290236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445205290246, "dur":173035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205463384, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205463739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445205463750, "dur":89057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205552898, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205553425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445205553436, "dur":429766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205983414, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445205984037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445205984075, "dur":217363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206201519, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206201788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206201797, "dur":224730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206426604, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206426979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206426988, "dur":104474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206531545, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206531813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206531823, "dur":65920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206597842, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206598234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206598245, "dur":85543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206683875, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206684177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206684185, "dur":79350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206763612, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206764616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206764625, "dur":60090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206824808, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206825108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206825118, "dur":53324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206878541, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206878838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206878849, "dur":34201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206913136, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206913375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206913385, "dur":29242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206942747, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206943058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206943069, "dur":39182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206982335, "dur":1817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445206984163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445206984179, "dur":90133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207074396, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207074776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445207074785, "dur":277890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207352761, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207353045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445207353059, "dur":49486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207402629, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207403245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445207403255, "dur":93308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207496673, "dur":9758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/DoorConfiguration/Door Configuration_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207506437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673445207506470, "dur":227287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/DoorConfiguration/Door Configuration_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673445207733853, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1673445207733858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673445207749605, "dur":4834, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1673445207816380, "dur": 1696, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673445207815397, "dur": 2775, "ph": "X", "name": "Write chrome-trace events", "args": {} },
